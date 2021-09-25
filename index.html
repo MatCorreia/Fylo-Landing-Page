@@ -22,9 +22,10 @@
 </head>
 
 <body>
-  <header>
+  <header role="Logo and Menu">
     <nav class="navbar pt-4">
       <div class="container">
+        <h1 style="display: none;">Fylo</h1>
         <a class="navbar-brand" href="index.html"><img src="./src/img/logo.svg" alt="Logo Fylo"></a>
         <div>
           <ul class="navbar-nav list-group-horizontal">
@@ -50,14 +51,14 @@
     <div class="text-center intro-text m-auto">
       <h2 class="py-3">All your files in one secure location, accessible anywhere.</h2>
 
-      <p>Fylo stores all your most important files in one secure location. Access them wherever
+      <p role="intro-text">Fylo stores all your most important files in one secure location. Access them wherever
         you need, share and collaborate with friends family, and co-workers.</p>
 
       <button class="btn btn-primary">Get Started</button>
     </div>
   </main>
 
-  <section>
+  <section role="about-us">
     <div class="container about-us">
       <div class="row">
         <div class="col-12 col-md-6 py-3 text-center">
@@ -65,9 +66,9 @@
             <img src="./src/img/icon-access-anywhere.svg" alt="Acess">
           </div>
           <div class="text">
-            <h5>Access your files, anywhere</h5>
+            <h5 role="about-us-subtitle-1">Access your files, anywhere</h5>
 
-            <p>The ability to use a smartphone, tablet, or computer to access your account means your
+            <p role="about-us-text-1">The ability to use a smartphone, tablet, or computer to access your account means your
               files follow you everywhere.</p>
           </div>
         </div>
@@ -76,9 +77,9 @@
             <img style="height: 78px;" src="./src/img/icon-security.svg" alt="Security">
           </div>
           <div class="text">
-            <h5>Security you can trust</h5>
+            <h5 role="about-us-subtitle-2">Security you can trust</h5>
 
-            <p>2-factor authentication and user-controlled encryption are just a couple of the security
+            <p role="about-us-text-2">2-factor authentication and user-controlled encryption are just a couple of the security
               features we allow to help secure your files.</p>
           </div>
         </div>
@@ -87,9 +88,9 @@
             <img src="./src/img/icon-collaboration.svg" alt="Collaboration">
           </div>
           <div class="text">
-            <h5>Real-time collaboration</h5>
+            <h5 role="about-us-subtitle-3">Real-time collaboration</h5>
 
-            <p>Securely share files and folders with friends, family and colleagues for live collaboration.
+            <p role="about-us-text-3">Securely share files and folders with friends, family and colleagues for live collaboration.
               No email attachments required.</p>
           </div>
         </div>
@@ -98,9 +99,9 @@
             <img style="height: 71px;" src="./src/img/icon-any-file.svg" alt="File">
           </div>
           <div class="text">
-            <h5>Store any type of file</h5>
+            <h5 role="about-us-subtitle-4">Store any type of file</h5>
 
-            <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+            <p role="about-us-text-4">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
               file types to be securely stored and shared.</p>
           </div>
         </div>
@@ -108,7 +109,7 @@
     </div>
   </section>
 
-  <section>
+  <section role="productive">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -136,7 +137,7 @@
     </div>
   </section>
 
-  <section>
+  <section role="card">
     <div class="container section-card-mobile">
       <div class="row">
         <div class="col-12 col-md-4">
@@ -174,7 +175,7 @@
     </div>
   </section>
 
-  <section>
+  <section role="email">
     <div class="container text-center">
       <div class="section-email">
         <h3>Get early access today</h3>
@@ -250,9 +251,9 @@
           </div>
           <div class="col-12 col-md-2 d-flex pt-5 pt-md-0">
             <ul class="navbar-nav list-group-horizontal social-media mx-auto">
-              <li class="nav-item"><a href="#" class="border-social"><i class="fab fa-facebook-f fa-lg"></i></a></li>
-              <li class="nav-item px-4"><a href="#" class="border-social"><i class="fab fa-twitter fa-lg"></i></a></li>
-              <li class="nav-item"><a href="#" class="border-social"><i class="fab fa-instagram fa-lg"></i></a></li>
+              <li class="nav-item"><a href="#" class="border-social" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+              <li class="nav-item px-4"><a href="#" class="border-social" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a></li>
+              <li class="nav-item"><a href="#" class="border-social" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a></li>
             </ul>
           </div>
         </div>
